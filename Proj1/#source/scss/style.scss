@@ -1,0 +1,50 @@
+//@import "nullstyle.scss";
+
+
+.body__container {
+	font-size: 20px;
+	margin: 0 30%;
+}
+.body__header {
+	display:flex;
+	background-color: #057;
+	span{
+		color: white;
+	}
+}
+.body__header__col{
+	flex: 50%;
+	padding: 5px 0 5px 10px;
+}
+.body__middle {}
+.body__middle__upper {
+	display: flex;
+	background-color: orange;
+	margin: 20px 0 20px 0;
+}
+.body__middle__upper__col {
+	flex: 50%;
+	padding: 5px 0 5px 10px;
+	input{
+		text-align: center;
+	}
+}
+.body__middle__lower {
+	display:flex;
+}
+.body__middle__lower__col {
+	flex:50%;
+	background-color: #059;
+	color:white;
+	padding: 10px;
+	button{
+		color: rgba(0,0,0,0);
+	}
+}
+.body__bottom {
+	background-color:gray;
+	margin: 20px 0 0 0;
+	height: 200px;
+	color:white;
+	text-align: center;
+}
