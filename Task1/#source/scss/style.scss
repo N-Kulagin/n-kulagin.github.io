@@ -1,0 +1,98 @@
+//@import "nullstyle.scss";
+
+label{
+	display: block;
+}
+
+form{
+
+}
+
+footer{
+	text-align:center;
+	img{
+		width: 5%;
+		height: 5%;
+	}
+}
+
+header{
+	img{
+		width: 10%;
+		height: 10%;
+	}
+}
+
+
+.main-container {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	font-weight: 600;
+	border-radius: 10%;
+	border: 3px solid white;
+	overflow: hidden;
+}
+.user-data {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: rgba(20,20,100,0.85);
+}
+.user-name{}
+.user-password{}
+.user-testing-time {
+	display: flex;
+	justify-content: center;
+	background-color: orange;
+	color: black;
+}
+.user-time {
+	width: 15.5%;
+}
+.user-testing {
+	width: 15.5%;
+}
+.select-buttons {}
+.sel {
+	display: flex;
+	justify-content: center;
+	background-color: rgba(20,20,100,0.85);
+	select{
+		display: block;
+	}
+}
+.buttons {
+	display: flex;
+	justify-content: center;
+	background-color: rgba(20,20,100,0.85)
+}
+
+.fname {
+	display: flex;
+	justify-content: space-between;
+}
+.sname {
+	display: flex;
+	justify-content: space-between;
+}
+.login {
+	display: flex;
+	justify-content: space-between;
+}
+.password {
+	display: flex;
+	justify-content: space-between;
+}
+
+.extra-text{
+	background-color: grey;
+	display: flex;
+	justify-content: center;
+}
+
+.user-data,.user-testing-time,.sel,.extra-text,.buttons{
+	padding: 10px 0 10px 0;
+}
